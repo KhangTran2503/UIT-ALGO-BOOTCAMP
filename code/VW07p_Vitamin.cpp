@@ -24,14 +24,13 @@ int main() {
                 dp[i] = min(dp[i], dp[i - prefix_sum[j]] + j + 2);
             }
 
-    int result = dp[x];
     for (int i = 0; i <= x; ++i)
         if (x - i >= prefix_sum[n - 1] &&
             (x - i - prefix_sum[n - 1]) % a[n - 1] == 0)
-            result = min(
-                result, dp[i] + n + 1 + (x - i - prefix_sum[n - 1]) / a[n - 1]);
+            dp[x] = min(
+                dp[x], dp[i] + n + 1 + (x - i - prefix_sum[n - 1]) / a[n - 1]);
 
-    cout << (result == MAX ? -1 : result - 1) << '\n';
+    cout << (dp[x] == MAX ? -1 : dp[x] - 1) << '\n';
 
     return 0;
 }
