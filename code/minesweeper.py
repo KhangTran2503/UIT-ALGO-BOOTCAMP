@@ -28,21 +28,17 @@ def test(i: int, j: int):
             if bomb[i + k][j] == -1:
                 bomb[i + k][j] = 0
                 remain -= 1
-                test(i + k + k, j)
             if bomb[i][j + k] == -1:
                 bomb[i][j + k] = 0
                 remain -= 1
-                test(i + k + k, j)
     elif cur == cnt:
         for k in [-1, 1]:
             if bomb[i + k][j] == -1:
                 bomb[i + k][j] = 1
                 remain -= 1
-                test(i + k + k, j)
             if bomb[i][j + k] == -1:
                 bomb[i][j + k] = 1
                 remain -= 1
-                test(i + k + k, j)
 
 
 n, m = read_int()
