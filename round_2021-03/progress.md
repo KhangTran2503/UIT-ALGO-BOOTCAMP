@@ -25,11 +25,11 @@ https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=622
 ## Tests folder format:
 ```
 <repository>/round_2021-03/<problem_id>/
-|-- <tên_problem>.pdf
-|-- in/
-|   |-- 1.txt
-|   |-- ...
-|-- out/
-    |-- 1.txt
-    |-- ...
++-- <tên_problem>.pdf
++-- in/
+|   +-- 1.txt
+|   +-- ...
++-- out/
+    +-- 1.txt
+    +-- ...
 ```
