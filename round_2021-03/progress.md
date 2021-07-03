@@ -22,9 +22,14 @@ https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=622
   - [ ] UVa 10284 - Chessboard in FEN
   - [ ] UVa 11494 - Queen (ad hoc, chess)
 
-## Format testcase:
-* Thư mục chứa testcase: <repository>/round_2021-03/<problem_id>/  
-* Thư mục input: <repository>/round_2021-03/<problem_id>/in/  
-* Thư mục output: <repository>/round_2021-03/<problem_id>/out/  
-* Trong thư mục input và output gồm các file dạng <thứ_tự>.txt. VD: 1.txt, 2.txt.
-* File pdf đề bài: <repository>/round_2021-03/<problem_id>/<tên_problem>.pdf
+## Tests folder format:
+```
+<repository>/round_2021-03/<problem_id>/
+|-- <tên_problem>.pdf
+|-- in/
+|   |-- 1.txt
+|   |-- ...
+|-- out/
+    |-- 1.txt
+    |-- ...
+```
