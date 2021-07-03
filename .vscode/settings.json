@@ -1,3 +1,0 @@
-{
-    "C_Cpp.clang_format_fallbackStyle": "{BasedOnStyle: Google, UseTab: Never, IndentWidth: 4, TabWidth: 4, BreakBeforeBraces: Custom, AllowShortIfStatementsOnASingleLine: true, AllowShortFunctionsOnASingleLine: All, AllowShortBlocksOnASingleLine: true}"
-}
