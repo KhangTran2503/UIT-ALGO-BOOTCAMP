@@ -55,7 +55,7 @@ def make_tests():
         data.clear()
 
     for i in range(11, 101):
-        data = gen_all(9)
+        data = gen_all(8)
         random.shuffle(data)
         data.append('#')
 
