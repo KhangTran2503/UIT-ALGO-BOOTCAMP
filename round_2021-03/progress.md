@@ -3,7 +3,7 @@
 https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=622
 
 - C++ STL algorithm (Java Collections)
-  - [ ] UVa 00146 - ID Codes
+  - [x] UVa 00146 - ID Codes (generate tests by run "python3 gen_146.py" in folder round_2021-03)
   - [ ] UVa 00790 - Head Judge Headache
   - [ ] UVa 10057 - A mid-summer night
   - [ ] UVa 10107 - What is the Median?
