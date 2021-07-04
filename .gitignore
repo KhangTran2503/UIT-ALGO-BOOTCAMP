@@ -1,5 +1,5 @@
 // ignore personal vscode settings
 .vscode/
 
-// ignore tests
+// ignore tests file
 *.txt
