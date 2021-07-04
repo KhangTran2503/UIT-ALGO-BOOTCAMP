@@ -4,6 +4,8 @@ import itertools
 import subprocess as sp
 import random
 
+random.seed()
+
 id = '146'
 sol = os.path.join(id, 'sol')
 inp = os.path.join(id, 'in')
@@ -22,6 +24,9 @@ def write(path, data: list):
 
 def gen_all(n: int): return [''.join(v)
                              for v in itertools.permutations(gen_random(n))]
+
+
+def removed_duplicates(data: list): return list(set(data))
 
 
 def write_test(i: int, data: list):
@@ -44,9 +49,8 @@ def make_tests():
         os.makedirs(out)
 
     for i in range(1, 11):
-        data = []
-        for _ in range(1, 10000):
-            data.append(gen_random(i * 5))
+        data = [gen_random(i * 5) for _ in range(10000)]
+        data = removed_duplicates(data)
         random.shuffle(data)
         data.append('#')
 
@@ -56,6 +60,7 @@ def make_tests():
 
     for i in range(11, 101):
         data = gen_all(8)
+        data = removed_duplicates(data)
         random.shuffle(data)
         data.append('#')
 
