@@ -1,6 +1,6 @@
 # UIT_ALGO - ROUND-2021-003
 
-## UIT_ALGO - ROUND 2021-003 - CP3 - 2.2 Linear DS with Built-in Libraries - 1
+## CP3 - 2.2 Linear DS with Built-in Libraries - 1
 
 - 1D Array Manipulation: 
   - [ ] UVa 00230 - Borrowers
@@ -25,7 +25,7 @@
   - [ ] UVa 10646 - What is the Card?
   - [ ] UVa 12247 - Jollo
 
-## UIT_ALGO - ROUND 2021-003 - CP3 - 2.2 Linear DS with Built-in Libraries - 2
+## CP3 - 2.2 Linear DS with Built-in Libraries - 2
 
 https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=622
 
@@ -49,7 +49,7 @@ https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=622
   - [ ] UVa 10284 - Chessboard in FEN
   - [ ] UVa 11494 - Queen (ad hoc, chess)
 
-## UIT_ALGO - ROUND 2021-003 - CP3 - 2.3 Linear DS with Built-in Libraries - 3
+## CP3 - 2.2 Linear DS with Built-in Libraries - 3
 
 https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=622
 
@@ -75,7 +75,7 @@ https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=622
   - [ ] UVa 11459 - Snakes and Ladders
   - [ ] UVa 12239 - Bingo
 
-## UIT_ALGO - ROUND 2021-003 - CP3 - 2.3 Non-Linear DS with Built-in Libraries - 1
+## CP3 - 2.3 Non-Linear DS with Built-in Libraries - 1
 
 https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=630
 
@@ -106,7 +106,7 @@ https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=630
   - [ ] UVa 10443 - Rock, Scissors, Paper
   - [ ] UVa 10813 - Traditional BINGO
 
-## UIT_ALGO - ROUND 2021-003 - CP3 - 2.4 Data Structures with Our Own Libraries - 1
+## CP3 - 2.4 Data Structures with Our Own Libraries - 1
 
 https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=634
 
